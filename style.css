@@ -8,7 +8,7 @@
 nav{
     display: flex;
 
-    height: 75px;
+    height: 90px;
     box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
     justify-content: center;
 }
@@ -25,7 +25,7 @@ nav{
     align-items: center;
 }
 .esquerda .logo img{
-    width: 50px;
+    width: 40px;
     cursor: pointer;
 
 }
@@ -34,17 +34,18 @@ nav{
 }
 .esquerda .textos{
     height: 25px;
-    width: 250px;
+    width: 600px;
     display: flex;
+    justify-content: space-between;
     margin-left: 35px;
     align-items: center;
 }
 .esquerda .textos a{
-    color: black;
+    color: rgb(24, 11, 4);
     font-weight: 800;
+    font-size: 13px;
     letter-spacing: 2px;
     text-decoration: none;
-    margin-right: 15px;
     transition: 0.3s;
 }
 .textos a:hover{
@@ -75,7 +76,7 @@ nav{
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    border: 1px solid rgb(0, 0, 0);
+    border: 1px solid rgb(24, 11, 4);
     cursor: pointer;
     transition: all 0.3s;
 }
@@ -98,7 +99,7 @@ nav{
         justify-content: center;
         align-items: center;
         border-radius: 50px;
-        border: 1px solid rgb(0, 0, 0);
+        border: 1px solid rgb(24, 11, 4);
         cursor: pointer;
         transition: all 0.3s;
 }
